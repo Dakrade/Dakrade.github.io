@@ -1,0 +1,83 @@
+body {
+  background-color: #00008B;
+  text-align: center;
+
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #8b4600;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #8b2300;
+  color: white;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+    opacity: 0.65;
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#main_pic{
+	margin-top: 40px;
+}
+
+.sides{
+  top: 100px;
+}
+
+.sides2{
+  left:50px;
+}
+
+.p_column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+    opacity: 0.65;
+
+}
+
+#textSpace{
+  margin-top: 85px;
+}
+
+.question{
+  color:white;
+}
